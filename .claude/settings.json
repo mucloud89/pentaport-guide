@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:pharm.goodhosrank.com)",
+      "WebFetch(domain:pharm.vicharas.net)",
+      "WebFetch(domain:aroundpharm.com)",
+      "Bash(sed -n '438,444p' /Users/user/Desktop/펜타포트제안/src/i18n/translations.ts)",
+      "Bash(sed -n '576,582p' /Users/user/Desktop/펜타포트제안/src/i18n/translations.ts)",
+      "Bash(sed -n '204,220p' /Users/user/Desktop/펜타포트제안/src/i18n/translations.ts)",
+      "Bash(sed -n '346,362p' /Users/user/Desktop/펜타포트제안/src/i18n/translations.ts)",
+      "Bash(sed -n '489,505p' /Users/user/Desktop/펜타포트제안/src/i18n/translations.ts)",
+      "Bash(sed -n '632,648p' /Users/user/Desktop/펜타포트제안/src/i18n/translations.ts)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' -X POST https://script.google.com/macros/s/AKfycbwSt1fHLRKR8Yy-85G2Zq9sSBHm5P6Hb-rK-m7J0PWWwPNjkFwN9azWQ-sYAkplrbOQ/exec -H 'Content-Type: text/plain' -d '{\"ts\":1749600000000,\"lang\":\"en\",\"country\":\"TEST_DELETE\",\"rating\":5,\"helpful\":\"yes\",\"wantMore\":\"\",\"improvement\":\"\"}')",
+      "Bash(curl -s -L -X POST https://script.google.com/macros/s/AKfycbwSt1fHLRKR8Yy-85G2Zq9sSBHm5P6Hb-rK-m7J0PWWwPNjkFwN9azWQ-sYAkplrbOQ/exec -H 'Content-Type: text/plain' -d '{\"ts\":1749600000000,\"lang\":\"en\",\"country\":\"TEST_DELETE\",\"rating\":5,\"helpful\":\"yes\",\"wantMore\":\"test only\",\"improvement\":\"\"}')",
+      "Bash(curl -sL 'https://script.google.com/macros/s/AKfycbwSt1fHLRKR8Yy-85G2Zq9sSBHm5P6Hb-rK-m7J0PWWwPNjkFwN9azWQ-sYAkplrbOQ/exec')",
+      "Bash(curl -s -L -X POST https://script.google.com/macros/s/AKfycbwjGbFONdnAzhdLlomvtdX52T7LSjxERY3mDS1g5aquUMFk1YNx4dmZLclMEY5dqsCs/exec -H 'Content-Type: text/plain' -d '{\"ts\":1749600000000,\"lang\":\"en\",\"country\":\"TEST_DELETE\",\"rating\":5,\"helpful\":\"yes\",\"wantMore\":\"test only\",\"improvement\":\"\"}')",
+      "Bash(python3 -c \"import sys; body=sys.stdin.read\\(\\); print\\(body[:300]\\)\")",
+      "Bash(curl -sL 'https://script.google.com/macros/s/AKfycbwjGbFONdnAzhdLlomvtdX52T7LSjxERY3mDS1g5aquUMFk1YNx4dmZLclMEY5dqsCs/exec')",
+      "Bash(python3 -c \"import sys; body=sys.stdin.read\\(\\); import re; text=re.sub\\('<[^>]+>','',body\\); print\\(text[:200]\\)\")",
+      "Bash(curl -sL https://script.google.com/macros/s/AKfycbwjGbFONdnAzhdLlomvtdX52T7LSjxERY3mDS1g5aquUMFk1YNx4dmZLclMEY5dqsCs/exec)",
+      "Bash(python3 -c \"import sys,re; t=re.sub\\('<[^>]+>','',sys.stdin.read\\(\\)\\); print\\(t[:300]\\)\")",
+      "Bash(curl -sL -X POST https://script.google.com/macros/s/AKfycbwjGbFONdnAzhdLlomvtdX52T7LSjxERY3mDS1g5aquUMFk1YNx4dmZLclMEY5dqsCs/exec -H 'Content-Type: text/plain' -d '{\"ts\":1749600000000,\"lang\":\"ko\",\"country\":\"TEST_DELETE\",\"rating\":5,\"helpful\":\"yes\",\"wantMore\":\"테스트 행 - 삭제해주세요\",\"improvement\":\"\"}')",
+      "Bash(python3 -c \"import sys,re; t=re.sub\\('<[^>]+>','',sys.stdin.read\\(\\)\\); print\\(t[:400]\\)\")",
+      "Bash(curl -s -D - -X POST https://script.google.com/macros/s/AKfycbwjGbFONdnAzhdLlomvtdX52T7LSjxERY3mDS1g5aquUMFk1YNx4dmZLclMEY5dqsCs/exec -H 'Content-Type: text/plain' -d '{\"ts\":1749600000000,\"lang\":\"ko\",\"country\":\"TEST_DELETE\",\"rating\":5,\"helpful\":\"yes\",\"wantMore\":\"테스트\",\"improvement\":\"\"}')",
+      "Bash(curl -s 'https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnT7N3cffneDw6Qq1gWKn4xEC5EcAsl96lmXtPt6sqhRy8PgDpxx0fGgDFxfluzcNlXF0EnfPzrwKYT0nzev4xnSJZ9gbeSiUTcbs-lXqUQ-S3yBs8oh06rQg6udxjvkkyy7KGLvK7-n1hRXFCvpsLbPTbZDAXQFMuv-ZXyYCfYJvEDg5XERTStlg5m2HSgWQ0eYhBRhx6T5KtV5QWg8a5cjm7Gg1hJDKKBNeCZ08ig7byY6YfbkBYZnoPrm3dZtU5G8rHDMi2lY2xlHYLZgK6e4RH_SDA&lib=Mhq2NikZfPK9imA-XbbgVPVI0kEV9e-9b')",
+      "Bash(python3 -c \"import qrcode; print\\('qrcode available'\\)\")",
+      "Bash(python3 -m pip show qrcode)",
+      "Bash(python3 -m pip install qrcode[pil] --quiet)",
+      "Bash(python3 -m pip install qrcode Pillow --quiet)",
+      "Bash(python3 -c \"import qrcode; print\\('ok'\\)\")",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
